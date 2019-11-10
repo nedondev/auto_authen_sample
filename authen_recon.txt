@@ -1,0 +1,5 @@
+HTML comments, ie. <!-- -->, are no longer needed. They were intended to allow browsers that didn't understand the <script> tag to degrade gracefully. These browsers, eg. Netscape 1.x are no longer found in the wild. So there is really no point in putting HTML comments in your script tags anymore.
+
+If you want your HTML to validate as XHTML or XML, you probably want to use a commented out CDATA tag.
+ref: https://stackoverflow.com/questions/1507939/using-html-comment-tag-still-relevant-around-javascript-code
+     https://www.w3schools.com/tags/tag_comment.asp

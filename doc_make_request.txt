@@ -1,0 +1,23 @@
+python-requests:
+    pip install requests
+    pipenv install requests
+
+    import requests
+    response = requests.get('https://api.github.com')
+
+ref: https://realpython.com/python-requests/
+look inside-python-object:
+Python has a strong set of introspection features.
+
+Take a look at the following built-in functions:
+    type()
+    dir()
+    id()
+    getattr()
+    hasattr()
+    globals()
+    locals()
+    callable()
+
+type() and dir() are particularly useful for inspecting the type of an object and its set of attributes, respectively.
+ref: https://stackoverflow.com/questions/1006169/how-do-i-look-inside-a-python-object
