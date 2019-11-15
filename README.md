@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ### Example `.env`
 ```
-cat .env.example
+$ cat .env.example
 ```
 
 ### Usage
